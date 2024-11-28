@@ -49,6 +49,7 @@ public class RecruitController {
 //		return recruitRepository.findTop3ByTypeOrderBySalaryDesc("계약직");
 //		return recruitRepository.findByRegionAndSalaryBetween("성남시 분당구", 7000, 8500);
 		return recruitRepository.findByNativeQuery("2026-04-10 00:00:00", 8100, "정규직");
+												//LocalDate.of(2026, 4, 10) repository 타입도 LocalDate로 바꿔주고
 	}
 	
 }
