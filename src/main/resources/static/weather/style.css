@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#wrap{
+	
+	width : 1200px;
+}
+
+
+
+.main-contents > .menu {
+	width : 200px;
+	
+}
+
+.main-contents > .sub-contents {
+	width : 1000px;
+}
+
+footer {
+	height : 100px;
+}
+
+.input-label {
+	width:120px;
+	text-align:right;
+	margin-right:10px;
+	
+}
